@@ -1,0 +1,102 @@
+:root {
+    --Very-Dark-Blue: hsl(234, 12%, 34%);
+    --Grayish-Blue: hsl(229, 6%, 66%);
+    --Very-Light-Gray: hsl(0, 0%, 98%);
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: var(--Very-Light-Gray);
+    font-family: 'Poppins', sans-serif;
+}
+.heading {
+text-align: center;
+margin-top: 4rem;
+}
+h1 {
+    color: var(--Grayish-Blue);
+    font-weight: 400;
+}
+h2 {
+    color: var(--Very-Dark-Blue);
+    font-size: 2rem;
+    font-weight: 600;
+}
+.heading p {
+    color: var(--Grayish-Blue);
+    font-size: 15px;
+    font-weight: 200;
+    padding: 0 8rem 0 8rem;
+    margin: 0 15rem 0 15rem;
+}
+.div-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 2rem;
+}
+.supervisor-div {
+    grid-row: span 2;
+    border-top: 3px solid hsl(212, 86%, 64%);
+    align-self: center;
+    justify-self: end;
+    
+}
+.supervisor-div,
+.karma-div,
+.teambuilder-div,
+.calculator-div {
+    box-shadow: 1px 5px 10px var(--Grayish-Blue);
+    width: 350px;
+    border-radius: 8px;
+}
+p {
+    margin: 25px;
+    color: var(--Grayish-Blue);
+    font-size: 15px;
+    font-weight: 200;
+}
+h3 {
+    margin: 25px;
+    color: var(--Very-Dark-Blue);
+    font-weight: 700;
+}
+img {
+    margin: 2rem 10px 1rem 17rem;
+}
+.karma-div {
+    grid-row: span 2;
+    border-top: 3px solid hsl(34, 97%, 64%);
+    align-self: center;
+    
+}
+.teambuilder-div {
+    border-top: 3px solid hsl(0, 78%, 62%);
+}
+.calculator-div {
+    border-top: 3px solid hsl(180, 62%, 55%);
+}
+.teambuilder-div,
+.calculator-div { 
+    align-self: center;
+    justify-self: center;
+    
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+ }
+.attribution a { 
+    text-decoration: none;
+    color: var(--Grayish-Blue);
+ }
+ .attribution a:hover {
+    text-decoration: underline;
+    color: hsl(180, 62%, 55%);
+ }
+
+
