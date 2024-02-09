@@ -76,6 +76,7 @@ img {
 }
 .teambuilder-div {
     border-top: 3px solid hsl(0, 78%, 62%);
+    margin-bottom: 20px;
 }
 .calculator-div {
     border-top: 3px solid hsl(180, 62%, 55%);
@@ -84,6 +85,7 @@ img {
 .calculator-div { 
     align-self: center;
     justify-self: center;
+
     
 }
 .attribution { 
