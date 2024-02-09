@@ -14,7 +14,7 @@ body {
 }
 .heading {
 text-align: center;
-margin-top: 4rem;
+margin: 4rem 18rem 0 18rem;
 }
 h1 {
     color: var(--Grayish-Blue);
@@ -29,14 +29,11 @@ h2 {
     color: var(--Grayish-Blue);
     font-size: 15px;
     font-weight: 200;
-    padding: 0 8rem 0 8rem;
-    margin: 0 15rem 0 15rem;
 }
 .div-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 10px;
     margin-top: 2rem;
 }
 .supervisor-div {
@@ -68,25 +65,23 @@ h3 {
 img {
     margin: 2rem 10px 1rem 17rem;
 }
-.karma-div {
+.calculator-div {
     grid-row: span 2;
-    border-top: 3px solid hsl(34, 97%, 64%);
     align-self: center;
+    border-top: 3px solid hsl(180, 62%, 55%);
     
 }
 .teambuilder-div {
     border-top: 3px solid hsl(0, 78%, 62%);
     margin-bottom: 20px;
 }
-.calculator-div {
-    border-top: 3px solid hsl(180, 62%, 55%);
+.karma-div {
+    border-top: 3px solid hsl(34, 97%, 64%);
 }
 .teambuilder-div,
-.calculator-div { 
+.karma-div { 
     align-self: center;
     justify-self: center;
-
-    
 }
 .attribution { 
     font-size: 11px; 
